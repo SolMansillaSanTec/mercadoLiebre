@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/" method="get" style="display: flex; flex-direction: column;">
+        <label for="nombre-apellido">Nombre y apellido:</label>
+        <input type="text" name="nombre-apellido" id="nombre-apellido" placeholder="Ingrese nombre y apellido">
+        <label for="nombre-usuario">Nombre de usuario:</label>
+        <input type="text" name="nombre-usuario" id="nombre-usuario" placeholder="Ingrese nombre de usuario">
+        <label for="fecha-nac">Seleccione su fecha de nacimiento:</label>
+        <input type="date" name="fecha-nac" id="fecha-nac" min="2000-12-12" max="2021-04-12">
+        <label for="domicilio">Domicilio:</label>
+        <input type="text" name="domicilio" id="domicilio" placeholder="Ingrese su domicilio">
+        <fieldset>
+            <legend>Sos comprador o vendedor vo'</legend>
+            <label for="comprador">Comprador</label>
+            <input type="radio" name="comprador-vendedor" id="comprador" value="comprador"> 
+            <label for="vendedor">Vendedor</label>
+            <input type="radio" name="comprador-vendedor" id="vendedor" value="vendedor"> 
+        </fieldset>
+        <fieldset>
+            <legend>Seleccioná las categorias de interes vo'</legend>
+            <label for="electro">Electro</label>
+            <input type="checkbox" name="categorias" id="electro" value="electro">
+            <label for="moda">Moda</label>
+            <input type="checkbox" name="categorias" id="moda" value="moda"> 
+            <label for="hogar">Hogar</label>
+            <input type="checkbox" name="categorias" id="hogar" value="hogar">
+            <label for="juguetería">Juguetería</label>
+            <input type="checkbox" name="categorias" id="juguetería" value="juguetería">
+            <label for="vida sana">Vida sana</label>
+            <input type="checkbox" name="categorias" id="vida sana" value="vida sana">
+        </fieldset>
+        <label for="foto-usuario">Seleccioná foto de usuario vo':</label>
+        <input type="file" name="foto-usuario" accept=".jpg">
+        <label for="contraseña">Ingresá contraseña vo':</label>
+        <input type="password" name="contraseña">
+        <label for="contraseña">Confirmá contraseña vo':</label>
+        <input type="password" name="contraseña">
+        <button>Enviar</button>
+        <button type="reset">Borrar todo</button>
+    </form>
+</body>
+</html>

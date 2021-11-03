@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+
+    font-family: 'Roboto', sans-serif;
+    background-color: #eac926;
+}
+
+ul {
+    padding: 0;
+}
+
+.aviso {
+    text-align: center;
+}
+
+.barra-busqueda {
+    display: inline;
+    background-color: #ebebeb;
+    border: #666;
+    padding-left: 2%;
+}
+
+.logo {
+    width: 20%;
+    padding-left: 2%;
+    padding-bottom: 2%;
+}
+
+.lista-arriba{
+    margin:0%;
+}
+
+.lista-abajo {
+    margin:0%
+}
+
+.imagenes {
+    width: 20%;
+}
+
+.secciones {
+    font-size: 24px;
+    display: block;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.precios {
+    font-size: 18px;
+    text-align: center;
+}
+
+.descuentos {
+    font-size: 16px;
+    text-align: center;
+}
+
+.nombres {
+    font-size: 16px;
+    display: block;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.seccion1 article {
+    text-align: center;
+}
